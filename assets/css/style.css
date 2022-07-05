@@ -58,6 +58,11 @@ a:hover {
     line-height: 2em;
 }
 
+.container .card img {
+    max-width: 100%;
+    display: block;
+}
+
 .container .btn-container {
     display: flex;
     width: 100%;
