@@ -57,6 +57,7 @@ a:hover {
     line-height: 2em;
 }
 
+/* inside card container */
 .container .card {
     display: flex;
     flex: 1 1 auto;
@@ -66,6 +67,17 @@ a:hover {
 
 img {
     max-width: 100%;
+}
+
+h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: var(--yellow);
+    text-align: center;
+    font-style: italic;
+    letter-spacing: -1px;
+    margin: 20px auto;
 }
 
 .container .btn-container {
@@ -95,9 +107,12 @@ button:hover {
 
 }
 
+/* end card container */
+
 footer {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
