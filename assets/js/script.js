@@ -13,7 +13,7 @@ const deck = [
     new card('The Emperor', 'The Emperor description here', '04 The Emperor'),
     new card('Hierophant', 'Hierophant description here', '05 Hierophant'),
     new card('The Lovers', 'The Lovers description here', '06 The Lovers'),
-    new card('Strength', 'Strength description here', '07 Strength')
+    new card('The Chariot', 'The Chariot description here', '07 The Chariot')
 ];
 
 // randomize tarot cards
