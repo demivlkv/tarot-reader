@@ -1,6 +1,8 @@
 :root {
-    --mint: #a1fcdf;
+/*    --mint: #a1fcdf;
     --pink: #d5aca9;
+*/
+    --yellow: #dddbb3;
     --white: #eeeeee;
 }
 
@@ -11,10 +13,18 @@
 }
 
 body {
-    background-color: #333333;
+    background-color: #232324;
     font-family:'Courier New', Courier, monospace;
     font-size: 14px;
     color: var(--white);
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--yellow);
+    letter-spacing: -1px;
 }
 
 a {
@@ -25,7 +35,7 @@ a {
 }
 
 a:hover {
-    color: var(--mint);
+    color: var(--yellow);
     text-decoration: none;
 }
 
@@ -39,7 +49,7 @@ a:hover {
     justify-content: center;
     align-items: center;
 
-    background-color: #222222;
+    background-color: #333333;
     padding: 20px;
 }
 
@@ -58,9 +68,9 @@ a:hover {
 button {
     display: inline-block;
     width: 30%;
-    background-color: #444444;
+    background-color: #0f0f0f;
     font-size: 18px;
-    color: var(--mint);
+    color: var(--yellow);
     text-align: center;
     margin: 10px;
     padding: 15px 30px;
@@ -70,7 +80,7 @@ button {
 
 button:hover {
     transition: background-color 0.5s ease-in-out 0.2s;
-    background-color: var(--mint);
+    background-color: var(--yellow);
     color: #333333;
 
 }
