@@ -1,0 +1,83 @@
+:root {
+    --mint: #a1fcdf;
+    --pink: #d5aca9;
+    --white: #eeeeee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: var(--white);
+}
+
+a {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--mint);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    flex: 1 1 70%;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222222;
+    padding: 20px;
+}
+
+.container p {
+    background: transparent;
+    line-height: 2em;
+}
+
+.container .btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: inline-block;
+    width: 30%;
+    background-color: #444444;
+    font-size: 18px;
+    color: var(--mint);
+    text-align: center;
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    transition: background-color 0.5s ease-in-out 0.2s;
+    background-color: var(--mint);
+    color: #333333;
+
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
