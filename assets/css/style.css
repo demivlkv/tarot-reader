@@ -13,23 +13,29 @@
 }
 
 body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     background-color: #232324;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Cardo', Times, serif;
     font-size: 14px;
     color: var(--white);
 }
 
 h2 {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 24px;
-    font-weight: bold;
+    font-family: 'Montserrat Light', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    text-transform: uppercase;
     color: var(--yellow);
-    letter-spacing: -1px;
-    margin-bottom: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
 }
 
 a {
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Cardo', Times, serif;
     font-size: 14px;
     color: var(--white);
     text-decoration: none;
@@ -42,19 +48,21 @@ a:hover {
 
 .container {
     display: flex;
-    width: 35%;
-    flex: 1 1 70%;
+    width: 600px;
+    flex: 1 1 auto;
     flex-wrap: wrap;
-    margin: 50px auto;
-    padding: 20px;
+    margin: 100px auto;
+    padding: 50px;
     justify-content: center;
     align-items: center;
-    background-color: #333333;
+    background-color: rgba(20, 20, 20, 0.75);
 }
 
 .container p {
     background: transparent;
+    text-align: justify;
     line-height: 2em;
+    margin-bottom: 30px;
 }
 
 /* inside card container */
@@ -70,13 +78,13 @@ img {
 }
 
 h3 {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Montserrat Light', Arial, Helvetica, sans-serif;
     font-size: 28px;
-    font-weight: normal;
+    font-weight: lighter;
     color: var(--yellow);
     text-align: center;
-    font-style: italic;
-    letter-spacing: -1px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     margin: 20px auto;
 }
 
@@ -90,7 +98,7 @@ h3 {
 button {
     display: inline-block;
     width: 30%;
-    background-color: #0f0f0f;
+    background-color: #222222;
     font-size: 18px;
     color: var(--yellow);
     text-align: center;
@@ -104,7 +112,6 @@ button:hover {
     transition: background-color 0.5s ease-in-out;
     background-color: var(--yellow);
     color: #333333;
-
 }
 
 /* end card container */
