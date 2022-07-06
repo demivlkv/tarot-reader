@@ -34,13 +34,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-p {
-    background: transparent;
-    text-align: justify;
-    line-height: 2em;
-    margin-bottom: 30px;
-}
-
 a {
     font-family:'Cardo', Times, serif;
     font-size: 14px;
@@ -51,6 +44,7 @@ a {
 a:hover {
     color: var(--yellow);
     text-decoration: none;
+    transition: all .5s ease-out;
 }
 
 .container {
@@ -79,6 +73,7 @@ img {
     max-width: 400px;
     float: left;
     margin: 0 30px 30px auto;
+    border-radius: 10px;
 }
 
 h3 {
@@ -91,6 +86,15 @@ h3 {
     letter-spacing: 1px;
     margin: 20px auto;
 }
+
+p {
+    background: transparent;
+    text-align: justify;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+
+/* general 'draw card' button styling */
 
 .btn-container {
     display: flex;
@@ -127,8 +131,6 @@ button:hover {
     background-color: #d9d8c2;
     color: var(--yellow);
 }
-
-/* end card container */
 
 footer {
     display: flex;
