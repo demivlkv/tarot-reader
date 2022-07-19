@@ -51,3 +51,4 @@ document.getElementById("draw").onclick = function() {
 function display() {
     introEl.classList.add('hide');
 };
+
