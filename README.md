@@ -7,6 +7,7 @@ The purpose of this project was to practice JavaScript and to hone in my HTML & 
 - JavaScript
 
 ## Project Screenshot
+![This is a demo of the tarot card reader](/../main/assets/images/demo.gif)
 ![This is a screenshot of the tarot card reader](/../main/assets/images/screenshot.png)
 
 ## Project Link
