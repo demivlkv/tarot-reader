@@ -1,3 +1,5 @@
+const introEl = document.querySelector('.intro');
+
 function card(name, description, image) {
     this.name = name;
     this.description = description;
@@ -37,9 +39,15 @@ function getRandom(num) {
 
 // get a random card upon clicking "draw" button
 document.getElementById("draw").onclick = function() {
+    display();
+    
     const index = getRandom(21);
     const currentCard = deck[index];
 
     // get respective information associated with drawn currentCard
     document.getElementById("card").innerHTML = '<img src="./assets/images/' + currentCard.image + '.png"><h3>' + currentCard.name + '</h3><p>' + currentCard.description + '</p>';
 };
+
+function display() {
+    introEl.classList.add('hide');
+}
