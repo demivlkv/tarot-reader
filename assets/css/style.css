@@ -59,6 +59,10 @@ a:hover {
     background-color: rgba(20, 20, 20, 0.75);
 }
 
+.hide {
+    display: none;
+}
+
 /* inside card container */
 .card {
     display: flex;
