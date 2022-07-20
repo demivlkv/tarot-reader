@@ -1,3 +1,4 @@
+const headerEl = document.querySelector('.header');
 const introEl = document.querySelector('.intro');
 
 function card(name, description, image) {
@@ -49,6 +50,7 @@ document.getElementById("draw").onclick = function() {
 };
 
 function display() {
+    headerEl.classList.add('hide');
     introEl.classList.add('hide');
 };
 
