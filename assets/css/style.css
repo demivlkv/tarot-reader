@@ -19,15 +19,14 @@ body {
     background-attachment: fixed;
     background-position: 80%;
     background-color: #232324;
-    font-family:'Cardo', Times, serif;
+    font-family: 'Cardo', Times, serif;
     font-size: 0.9em;
     color: var(--white);
 }
 
 h2 {
-    font-family: 'Montserrat Light', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 36px;
-    font-weight: lighter;
     text-transform: uppercase;
     color: var(--yellow);
     letter-spacing: 2px;
@@ -35,7 +34,6 @@ h2 {
 }
 
 a {
-    font-family:'Cardo', Times, serif;
     font-size: 14px;
     color: var(--white);
     text-decoration: none;
@@ -82,9 +80,8 @@ img {
 }
 
 h3 {
-    font-family: 'Montserrat Light', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 28px;
-    font-weight: lighter;
     color: var(--yellow);
     text-align: center;
     text-transform: uppercase;
@@ -125,8 +122,7 @@ button {
     background-position: 0 -10px;
 
     font-size: 16px;
-    font-family: 'Montserrat Light', Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: var(--yellow);
     letter-spacing: 2px;
